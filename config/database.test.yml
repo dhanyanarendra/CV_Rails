@@ -1,0 +1,10 @@
+test:
+  adapter: postgresql
+  encoding: unicode
+  reconnect: false
+  database: test_peershape_election
+  pool: 5
+  username: postgres
+  password: password
+  host: 172.16.120.139
+  port: 5432

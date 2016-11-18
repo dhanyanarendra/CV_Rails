@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <p>Hello <%= @invite.first_name %>,<br><br>
+
+    <p> <%= @invite.short_description %> </p>
+
+      You have received a request to signup to PeerShape.<br>
+      <%= link_to 'click here to signup' ,"http://it-peershape-election.qwinix.io/#/signup?invite_id=#{@invite.id}&invite_email=#{@invite.email}" %><br><br>
+
+      warm regards,<br>
+      PeerShape Team
+    </p>
+
+  </body>
+</html>
+
